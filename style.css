@@ -191,6 +191,12 @@ body {
   box-shadow: 0 10px 20px rgba(71, 101, 255, 0.4);
 }
 
+@media (max-width: 640px) {
+  .nav-btn.active {
+    background: linear-gradient(135deg, #96c3ff, #ff7ea5);
+  }
+}
+
 
 /* Main / sections */
 
@@ -786,5 +792,6 @@ body {
     justify-self: flex-end;
   }
 }
+
 
 
