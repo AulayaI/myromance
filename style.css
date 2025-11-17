@@ -187,7 +187,7 @@ body {
   background: radial-gradient(circle at 0 0, #ffe0f2, transparent 70%),
     linear-gradient(135deg, #96c3ff, #ff7ea5);
   color: #15121f;
-  box-shadow: 0 5px 45px rgba(219, 0, 208, 0.537);
+  box-shadow: 0 10px 20px rgba(219, 0, 208, 0.537);
 
 }
 
@@ -785,3 +785,4 @@ body {
     justify-self: flex-end;
   }
 }
+
