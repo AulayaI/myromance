@@ -175,6 +175,12 @@ body {
   color: var(--text-soft);
   backdrop-filter: blur(18px);
   transition: background 0.22s ease, color 0.22s ease, box-shadow 0.22s ease, transform 0.14s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.nav-btn:focus,
+.nav-btn:active {
+  outline: none;
 }
 
 .nav-btn:hover {
@@ -792,6 +798,7 @@ body {
     justify-self: flex-end;
   }
 }
+
 
 
 
