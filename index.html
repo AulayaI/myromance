@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Little Universe</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&family=Sacramento&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-gradient"></div>
+  <div class="bg-blobs">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <div class="page-wrapper">
+    <!-- NAVBAR -->
+    <header class="top-nav glass">
+      <div class="brand">
+        <span class="brand-icon">❤</span>
+        <span class="brand-text">Our Memories</span>
+      </div>
+      <nav class="nav-links">
+        <button class="nav-btn active" data-target="home">Home</button>
+        <button class="nav-btn" data-target="story">Story</button>
+        <button class="nav-btn" data-target="moments">Moments</button>
+        <button className="nav-btn" class="nav-btn" data-target="playlist">Playlist</button>
+        <button class="nav-btn" data-target="secret">Secret</button>
+      </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+      <!-- HOME -->
+      <section id="home" class="section section-active">
+        <div class="hero glass">
+          <div class="hero-left">
+            <p class="eyebrow">Our Love Journey</p>
+            <h1 class="couple-name">Ulaya &amp; Azik</h1>
+            <p class="hero-subtitle">
+              Sebuah wadah yang merangkum rasa, waktu, dan kenangan sejak hari itu. 
+              Dibuat khusus untuk kita berdua.
+            </p>
+
+            <div class="hero-meta">
+              <div class="meta-item">
+                <span class="meta-label">Sejak</span>
+                <span class="meta-value">13 May 2025 &bull; 19:04</span>
+              </div>
+              <div class="meta-item">
+                <span class="meta-label">Status</span>
+                <span class="meta-value">Growing, always.</span>
+              </div>
+            </div>
+
+            <div class="counter-card glass-subtle">
+              <h2>Time Since We Started</h2>
+              <div class="counter-box">
+                <div class="counter-grid">
+                  <div class="counter-item">
+                    <span id="months-count">0</span>
+                    <label>Months</label>
+                  </div>
+                  <div class="counter-item">
+                    <span id="days-count">0</span>
+                    <label>Days</label>
+                  </div>
+                  <div class="counter-item">
+                    <span id="hours-count">0</span>
+                    <label>Hours</label>
+                  </div>
+                  <div class="counter-item">
+                    <span id="minutes-count">0</span>
+                    <label>Minutes</label>
+                  </div>
+                  <div class="counter-item">
+                    <span id="seconds-count">0</span>
+                    <label>Seconds</label>
+                  </div>
+                </div>
+              </div>
+              <p class="counter-caption">
+                Terhitung sejak lama
+              </p>
+              <!-- <p class="counter-caption">
+                Terhitung sejak 13 Mei 2025 pukul 19:04 (WIB).
+              </p> -->
+            </div>
+          </div>
+
+          <div class="hero-right">
+            <div class="liquid-card glass-strong">
+              <p class="tag">Romantic • Calm • Warm</p>
+              <p class="quote">
+                “Di antara banyaknya hari yang lewat, 
+                hari ketika aku bertemu denganmu adalah hari yang paling nyaman.”
+              </p>
+              <div class="pill-row">
+                <span class="pill">soft love</span>
+                <span class="pill">safe space</span>
+                <span class="pill">energy</span>
+              </div>
+            </div>
+
+            <div class="mini-cards">
+              <div class="mini glass-subtle">
+                <span class="mini-label">Today's Mood</span>
+                <span class="mini-value">💗 Grateful for you</span>
+              </div>
+              <div class="mini glass-subtle">
+                <span class="mini-label">Next Memory</span>
+                <span class="mini-value">Coming soon...</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- STORY / TIMELINE -->
+      <section id="story" class="section">
+        <div class="section-heading">
+          <h2>Story / Timeline</h2>
+          <p>Ringkasan perjalanan kita sejak awal menetas sampai ke senior high school, haha.</p>
+        </div>
+        <div class="timeline glass">
+          <div class="timeline-line"></div>
+
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div class="content">
+              <span class="time-label">2022</span>
+              <h3>Awal Cerita</h3>
+              <p>
+                Cerita kita dimulai dari sini: 
+                pertemuan pertama yang tak disengaja tapi mengawali cerita ini.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div class="content">
+              <span class="time-label">13 May 2025</span>
+              <h3>First Favorite Memory</h3>
+              <p>
+                Di tanggal ini semuanya resmi dimulai. Rasanya masih canggung, 
+                tapi ada sesuatu yang bikin hati tenang dan pengen stay lebih lama.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div class="content">
+              <span class="time-label">Hari Ini</span>
+              <h3>Standing Together</h3>
+              <p>
+                6 bulan rasanya cepat banget, itu semua berlalu tanpa kehilangan cinta sedikitpun. dua tiga rama rama, cari cowo ganteng macam aku ni nak dimana...? haha
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="dot"></div>
+            <div class="content">
+              <span class="time-label">A Wish</span>
+              <h3>Still Choosing You</h3>
+              <p>
+                Sejauh apa pun hari berjalan, intinya satu: 
+                aku tetap milih kamu, setiap hari, dengan versi diriku yang terus belajar.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MOMENTS -->
+            <section id="moments" class="section">
+        <div class="section-heading">
+          <h2>Moments</h2>
+          <p>Galeri kecil untuk menyimpan potongan kenangan kita.
+            <br> always update soon...</p>
+        </div>
+
+        <div class="moments-grid">
+          <!-- Moment 1 -->
+          <div class="moment-card glass-strong">
+            <img 
+              src="./asset/first.jpg" 
+              alt="First chat moment" 
+              class="moment-thumb"
+            />
+            <div class="moment-body">
+              <span class="moment-tag">Fotbar Pertama</span>
+              <h3>“nongki yuk?”</h3>
+              <p>
+                Pertanyaan simple yang entah kenapa jadi pintu buat banyak cerita setelahnya.
+              </p>
+            </div>
+          </div>
+
+          <!-- Moment 2 -->
+          <div class="moment-card glass-strong">
+            <img 
+              src="./asset/sec.jpg" 
+              alt="Inside joke" 
+              class="moment-thumb"
+            />
+            <div class="moment-body">
+              <span class="moment-tag">Spesial kedua</span>
+              <h3>Ikut kerkom jadi makin dekat hahaha</h3>
+              <p>
+                Sebenarnya ini masih PDKT, ya... itu semua awal dari kisah ini.
+              </p>
+            </div>
+          </div>
+
+          <!-- Moment 3 -->
+          <div class="moment-card glass-strong">
+            <img 
+              src="./asset/third.jpg" 
+              alt="Future plan" 
+              class="moment-thumb"
+            />
+            <div class="moment-body">
+              <span class="moment-tag">Nongki ketiga</span>
+              <h3>First Relationshiped</h3>
+              <p>
+                Agak gerogi awalnya, tapi seneng banget akhirnya kita resmi.
+              </p>
+            </div>
+          </div>
+
+          <!-- Moment 4 -->
+          <div class="moment-card glass-strong">
+            <img 
+              src="./asset/ini.jpg" 
+              alt="Inside joke" 
+              class="moment-thumb"
+            />
+            <div class="moment-body">
+              <span class="moment-tag">Little Things</span>
+              <h3>Hal Kecil yang Diam-diam Nge-ruin Hari Baik Aku</h3>
+              <p>
+                Kadang cuma cara kamu ngomong, nulis, atau ketawa… bikin aku mikir lama banget. Kayak hati diseret halus pelan-pelan.
+              </p>
+            </div>
+          </div>
+
+          <!-- Moment 5 -->
+          <div class="moment-card glass-strong">
+            <img 
+              src="./asset/itu.jpg" 
+              alt="Inside joke" 
+              class="moment-thumb"
+            />
+            <div class="moment-body">
+              <span class="moment-tag">Snapshot</span>
+              <h3>Foto yang Nggak Pernah Aku Hapus</h3>
+              <p>
+                Aku nggak tahu kenapa foto ini rasanya damai banget. Mungkin karena ada kamu di situ. Atau mungkin memang kamu efeknya begitu ke hidup aku. eaa
+              </p>
+            </div>
+          </div>
+
+          <!-- Moment 6 -->
+          <div class="moment-card glass-strong">
+            <img 
+              src="./asset/last.jpg" 
+              alt="Inside joke" 
+              class="moment-thumb"
+            />
+            <div class="moment-body">
+              <span class="moment-tag">New Memory</span>
+              <h3>Tempat istirahat paling aneh, didekatmu.. ups</h3>
+              <p>
+                Nggak masuk akal, tapi beneran: aku bisa capek, tapi deket kamu tuh kayak recharge halus yang nggak pernah aku dapet dari orang lain.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- PLAYLIST MUSIC -->
+      <section id="playlist" class="section">
+        <div class="section-heading">
+          <h2>Playlist Kita</h2>
+          <p>
+            Tiga lagu yang selalu teringat, karena mengingatkanku pada kamu dan kita.
+        </div>
+
+        <div class="playlist glass">
+          <!-- Track 1 -->
+          <div class="track" data-track="1">
+            <div class="track-info">
+              <h3>Bergema Sampai Selamanya</h3>
+              <p>Nadhif Basalamah</p>
+            </div>
+            <div class="track-controls">
+              <button class="play-pause" type="button">▶</button>
+              <span class="time current-time">0:00</span>
+              <input type="range" class="seek" min="0" max="100" value="0" />
+              <span class="time duration">0:00</span>
+            </div>
+            <audio src="./asset/Nadhif Basalamah - bergema sampai selamanya (Official Lyric Video) [gvunApwKIiY].mp3"></audio>
+          </div>
+
+          <!-- Track 2 -->
+          <div class="track" data-track="2">
+            <div class="track-info">
+              <h3>Bila Kau Tak Disampingku</h3>
+              <p>Sheila On 7</p>
+            </div>
+            <div class="track-controls">
+              <button class="play-pause" type="button">▶</button>
+              <span class="time current-time">0:00</span>
+              <input type="range" class="seek" min="0" max="100" value="0" />
+              <span class="time duration">0:00</span>
+            </div>
+            <audio src="./asset/Sheila on 7 - Bila Kau Tak Disampingku (Official Lyric Visualizer) [DbVrS-1UQNU].mp3"></audio>
+          </div>
+
+          <!-- Track 3 -->
+          <div class="track" data-track="3">
+            <div class="track-info">
+              <h3>Sampai Akhir Waktu</h3>
+              <p>Yovie & Nuno</p>
+            </div>
+            <div class="track-controls">
+              <button class="play-pause" type="button">▶</button>
+              <span class="time current-time">0:00</span>
+              <input type="range" class="seek" min="0" max="100" value="0" />
+              <span class="time duration">0:00</span>
+            </div>
+            <audio src="./asset/Yovie _ Nuno - Sampai Akhir Waktu (Lyric Video) [O8OGaNMuDP4].mp3"></audio>
+          </div>
+
+          <!-- <p class="playlist-note">
+            Ganti <code>audio/songX.mp3</code> dengan file lagu kalian sendiri.
+          </p> -->
+        </div>
+      </section>
+
+      <!-- SECRET -->
+      <section id="secret" class="section">
+        <div class="section-heading">
+          <h2>Secret Message</h2>
+          <!-- <p>
+            Ada sesuatu yang cuma bisa kebuka pakai satu kode: <strong>30162007</strong>.
+          </p> -->
+          <p>
+            Ada sesuatu yang cuma bisa kebuka pakai satu kode rahasia...
+          </p>
+        </div>
+
+        <div class="secret-wrapper glass-strong">
+          <div class="secret-input-row">
+            <input 
+              type="password" 
+              id="secret-password" 
+              placeholder="Masukkan password rahasia..."
+              autocomplete="off"
+            />
+            <button id="secret-submit" type="button">Unlock</button>
+          </div>
+          <p id="secret-feedback" class="secret-feedback"></p>
+
+          <div id="secret-message" class="secret-message hidden">
+            <p class="secret-short">
+              Kalau kamu sampai di bagian ini, berarti semua “kita” yang aku doakan pelan-pelan
+              lagi dikabulkan satu-satu.
+            </p>
+            <div class="secret-long">
+              <h3>Untuk Kamu</h3>
+              <p>
+                Dari semua hal di dunia ini, kamu tetap jadi rumah paling tenang buat aku. 
+                Kalau suatu hari kamu ragu sama diri sendiri, ingat ini:
+                aku bangga sama kamu, sama proses kamu, dan sama versi kamu yang pelan-pelan tumbuh.
+              </p>
+              <p>
+                Terima kasih sudah milih aku, berkali-kali, bahkan di hari-hari yang capek.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer glass">
+      <p>
+        MadeWithLove Ulaya &copy; <span id="footer-year"></span>. All rights reserved.
+      </p>
+    </footer>
+  </div>
+
+  <!-- Heart cursor container -->
+  <div id="heart-layer"></div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
